@@ -7,7 +7,7 @@ pub mod test_util {
     pub mod util {
         use std::io::{self, Read, Write};
 
-        use rand::Rng;
+        use rand::RngExt;
 
         // Function to save a Vec<u8> to a file
         pub fn save_bytes_to_file(bytes: &[u8], file_path: &String) -> io::Result<()> {
