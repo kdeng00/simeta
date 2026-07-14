@@ -1,5 +1,5 @@
 [package]
-name = "icarus_meta"
+name = "simeta"
 version = "0.6.1"
 edition = "2024"
 rust-version = "1.95"
