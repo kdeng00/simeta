@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.95"
 
 [dependencies]
-lofty = { version = "0.25.0" }
+lofty = { version = "0.25.4" }
 imghdr = { version = "0.7.0" }
 infer = { version = "0.22.0" }
 rand = { version = "0.10.3" }
