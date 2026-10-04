@@ -8,7 +8,7 @@ rust-version = "1.95"
 lofty = { version = "0.25.0" }
 imghdr = { version = "0.7.0" }
 infer = { version = "0.22.0" }
-rand = { version = "0.10.2" }
+rand = { version = "0.10.3" }
 
 [dev-dependencies]
 tempfile = { version = "3.27.0" }
