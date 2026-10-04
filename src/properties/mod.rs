@@ -90,7 +90,7 @@ mod tests {
 
                             let song_duration: u64 = 41;
                             let bitrate: u32 = 1;
-                            let overall_bitrate: u32 = 3;
+                            let overall_bitrate: u32 = 9;
                             let bit_depth: u8 = 24;
                             let channels: u8 = 2;
 
