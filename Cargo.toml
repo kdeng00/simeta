@@ -1,6 +1,6 @@
 [package]
 name = "simeta"
-version = "0.6.4"
+version = "0.6.5"
 edition = "2024"
 description = "Library to interact with flac and image files"
 license = "MIT"
