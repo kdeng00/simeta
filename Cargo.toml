@@ -1,6 +1,6 @@
 [package]
 name = "simeta"
-version = "0.6.4"
+version = "0.6.5"
 edition = "2024"
 description = "Library to interact with flac and image files"
 license = "MIT"
@@ -10,7 +10,7 @@ rust-version = "1.95"
 lofty = { version = "0.25.5" }
 imghdr = { version = "0.7.0" }
 infer = { version = "0.22.0" }
-rand = { version = "0.10.3" }
+rand = { version = "0.10.4" }
 
 [dev-dependencies]
 tempfile = { version = "3.27.0" }
