@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
-          toolchain: 1.99
+          toolchain: 1.99.1
       - uses: Swatinem/rust-cache@v2
       - run: |
           mkdir -p ~/.ssh
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
-          toolchain: 1.99
+          toolchain: 1.99.1
       - uses: Swatinem/rust-cache@v2
       - run: |
           mkdir -p ~/.ssh
@@ -52,7 +52,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
-          toolchain: 1.99
+          toolchain: 1.99.1
       - run: rustup component add rustfmt
       - uses: Swatinem/rust-cache@v2
       - run: |
@@ -71,7 +71,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
-          toolchain: 1.99
+          toolchain: 1.99.1
       - uses: Swatinem/rust-cache@v2
       - run: rustup component add clippy
       - run: |
@@ -90,7 +90,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
-          toolchain: 1.99
+          toolchain: 1.99.1
       - uses: Swatinem/rust-cache@v2
       - run: |
           mkdir -p ~/.ssh
